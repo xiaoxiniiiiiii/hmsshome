@@ -38,7 +38,7 @@ const categoryData = [
   { id: 'dining', name: 'Dining & Kitchen', eyebrow: 'Set the table beautifully', color: '#c8d0c8', items: ['Stoneware Dinnerware Set', 'Ribbed Coffee Cup', 'Natural Table Mat', 'Washed Linen Tablecloth', 'Cork Heat Mat', 'Hand Blown Fruit Bowl', 'Ceramic Spice Jar Set', 'Oak Kitchen Shelf'] },
   { id: 'bathroom', name: 'Bathroom', eyebrow: 'A calmer daily reset', color: '#c8d0c8', items: ['Textured Shower Curtain', 'Pebble Anti Slip Bath Mat', 'Brushed Towel Rail', 'Slim Bathroom Shelf', 'Vanity Wash Organizer', 'Stone Soap Dish'] }
 ]
-const products = categoryData.flatMap((cat, catIndex) => cat.items.map((name, index) => ({ id: `${cat.id}-${index}`, name, category: cat.name, catId: cat.id, price: 20 + ((catIndex * 13 + index * 9) % 281), image: `/assets/products/${slug(name)}.png`, tint: cat.color })))
+const products = categoryData.flatMap((cat, catIndex) => cat.items.map((name, index) => ({ id: `${cat.id}-${index}`, name, category: cat.name, catId: cat.id, price: 20 + ((catIndex * 13 + index * 9) % 281), image: `/assets/products/${slug(name)}.webp`, tint: cat.color })))
 
 const termsParts = ['Acceptance of terms', 'Eligibility and account access', 'Product information', 'Prices and availability', 'Orders and acceptance', 'Payment authorization', 'Shipping and delivery', 'Returns and refunds', 'Cancellations', 'Intellectual property', 'User content', 'Prohibited use', 'Third-party services', 'Disclaimers', 'Limitation of liability', 'Indemnification', 'Governing law and contact']
 
