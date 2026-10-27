@@ -1,6 +1,6 @@
 # HMSS Home
 
-Hemosuos Home / 赫莫索斯科技有限公司的 React + Vite 百货家居商城前端演示。
+汝州市帆灵商贸行（个体工商户）的 React + Vite 百货家居商城前端演示。
 
 ## Run
 
